@@ -1,0 +1,162 @@
+<html lang="en">
+<head>
+    
+    <title>Home appliances</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body{
+        background: #f5f7fa;
+        color: #333;
+    }
+    header{
+        background: #0a2540;
+        color: #fff;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header h1{
+        font-size: 24px;
+    }
+    nav a{
+        color: #fff;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover{
+        color: #00c2ff;
+    }
+    .hero{
+        height: 80vh;
+       background: linear-gradient(rgba(10,37,64,0.7),rgba(10,37,64,0.7)),url(chelsea.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+    .hero h2{
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+    .hero p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .btn{
+        background: #00c2ff;
+        padding: 12px 25px;
+        color: #fff;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .btn:hover{
+       background: #009ed1;
+    }
+    .products{
+        padding: 50px;
+        text-align: center;
+    }
+    .products h2{
+        margin-bottom: 30px;
+    }
+    .products-grid{
+        display: flex;
+        gap: 20px;
+    }
+    .card{
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card h3{
+        margin: 15px 0;
+    }
+    .about{
+        background: #0a2540;
+        color: #fff;
+        padding: 50px;
+        text-align: center;
+    }
+    footer{
+        background: #1111;
+        color: #ccc;
+        text-align: center;
+        padding: 15px;
+    }
+</style>
+<body>
+    <header>
+        <h1>HomeTech</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        
+    </header>
+    <section class="hero">
+        <div>
+        <h2>Upgrade Your Home Appliances</h2>
+        <p>Quality,durability,and modern design</p>
+        <a href="#" class="btn"> Shop Now</a>
+        </div>
+    </section>
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div>
+            <div class="products-grid">
+                <div class="card">
+<img src="refigerator.jpg" width="200px" height="200px" alt="">
+<h3>Smart Refrigerator</h3>
+<p>Energy-efficient and spacious design</p>
+                </div>
+<div class="card">
+<img src="washing machine.jpg" width="200px" height="200px" alt="">
+<h3>Washing Machine</h3>
+<p>Fast quiet and reliable performance</p>
+                </div>
+                <div class="card">
+<img src="microwave.jpg" width="200px" height="200px" alt="">
+<h3>Microwave</h3>
+<p>Quick heating with modern features</p>
+                </div>
+                <div class="card">
+<img src="air conditioner.jpg" width="200px" height="200px" alt="">
+<h3>Air Conditioner</h3>
+<p>stay cool with advanced cooling technology</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about">
+        <h2>Why Choose Us</h2>
+        <p>We provide top-quality home appliances designed to make your life easier
+            Trusted by thousand of customer worldwide.
+        </p>
+    </section>
+    <footer>
+        <p>© 2026 HomeTech Appliance| All Rights Reserved</p>
+    </footer>
+</body>
+</html>
